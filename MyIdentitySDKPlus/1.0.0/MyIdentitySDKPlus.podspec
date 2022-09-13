@@ -7,7 +7,8 @@ Pod::Spec.new do |spec|
   spec.authors            = { 'Alexander Kvamme' => 'alexanderkvamme@tietoevry.com' }
   spec.summary            = 'MyIdentitySDK with additional layout components'
   spec.platform           = :ios, '13.0'
-  spec.source             = { :http => 'file:' + __dir__ + '/MyIdentitySDKPlus.xcframework.zip', :type => "zip" }
+  #spec.source             = { :http => 'file:' + __dir__ + '/MyIdentitySDKPlus.xcframework.zip', :type => "zip" }
+  spec.source             = { :http => 'https://www.dropbox.com/s/r10sfmqbog48ivd/MyIdentitySDKPlus.xcframeork.zip?dl=1', :type => "zip" }
   spec.framework          = 'UIKit'
   spec.vendored_framework = 'MyIdentitySDKPlus.xcframework'
 
