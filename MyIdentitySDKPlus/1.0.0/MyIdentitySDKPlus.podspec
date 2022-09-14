@@ -10,10 +10,10 @@ Pod::Spec.new do |spec|
   #spec.source             = { :http => 'file:' + __dir__ + '/MyIdentitySDKPlus.xcframework.zip', :type => "zip" }
   spec.source             = { :http => 'https://www.dropbox.com/s/r10sfmqbog48ivd/MyIdentitySDKPlus.xcframeork.zip?dl=1', :type => "zip" }
   spec.framework          = 'UIKit'
-  spec.vendored_framework = 'MyIdentitySDKPlus.xcframework'
+  spec.vendored_framework = 'MyIdentitySDKPlus/MyIdentitySDKPlus.xcframework'
 
   # Cocoapods dependencies
-  spec.dependency 'MyIdentitySDK'
+  spec.dependency 'MyIdentity'
 
   # Temporarily exclude arm64 simulator architectures
   # Add these in later to make sim work on M1/M2 computers
